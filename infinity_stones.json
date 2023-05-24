@@ -1,0 +1,28 @@
+{
+	"stones": [
+		{
+			"name": "space",
+			"color": "purple"
+		},
+		{
+			"name": "mind",
+			"color": "blue"
+		},
+		{
+			"name": "soul",
+			"color": "green"
+		},
+		{
+			"name": "reality",
+			"color": "yellow"
+		},
+		{
+			"name": "time",
+			"color": "orange"
+		},
+		{
+			"name": "power",
+			"color": "red"
+		}
+	]
+}

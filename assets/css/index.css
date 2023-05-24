@@ -1,1 +1,37 @@
-/* Project structure */
+:root {
+	--primary-theme: #000000;
+}
+
+body {
+	background-color: var(--primary-theme);
+}
+
+.color-white {
+	color: #ffffff;
+}
+
+.my-text-center {
+	text-align: center;
+}
+
+.infinity-stones-ul {
+	padding-left: 0%;
+}
+
+.infinity-stones-ul > li {
+	color: white;
+	padding: 5%;
+	list-style-type: none;
+	margin: 2%;
+	border-radius: 20px;
+
+	border: 1px solid #ffffff;
+	box-shadow: 1px 1px #ffffff;
+
+	will-change: transform;
+}
+
+li:hover {
+	transform: scale(1.05);
+	transition: 0.2s;
+}
