@@ -1,3 +1,7 @@
+/* * {
+	outline: 2px solid red;
+} */
+
 :root {
 	--primary-theme: #000000;
 }
@@ -12,6 +16,10 @@ body {
 
 .my-text-center {
 	text-align: center;
+}
+
+.my-danger {
+	color: red;
 }
 
 .infinity-stones-ul {
@@ -34,4 +42,46 @@ body {
 li:hover {
 	transform: scale(1.05);
 	transition: 0.2s;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.infinity-stones-ul {
+		width: 60%;
+		margin: 10% 20%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	img {
+		width: 40%;
+		margin: 0% 30%;
+	}
+
+	.infinity-stones-ul {
+		width: 20%;
+		margin: 0% 40%;
+	}
+
+	.infinity-stones-ul > li {
+		margin: 4%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	img {
+		width: 30%;
+		margin: 0% 35%;
+	}
+
+	.infinity-stones-ul {
+		width: 20%;
+		margin: 0% 40%;
+	}
 }
