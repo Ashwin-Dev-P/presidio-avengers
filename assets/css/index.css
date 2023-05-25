@@ -10,6 +10,27 @@ body {
 	background-color: var(--primary-theme);
 }
 
+img {
+	min-width: 200px;
+}
+
+li img {
+	border-radius: 50%;
+}
+
+li:hover {
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+.stones-flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 .color-white {
 	color: #ffffff;
 }
@@ -28,28 +49,20 @@ body {
 
 .infinity-stones-ul > li {
 	color: white;
-	padding: 5%;
 	list-style-type: none;
 	margin: 2%;
 	border-radius: 20px;
 
-	border: 1px solid #ffffff;
-	box-shadow: 1px 1px #ffffff;
-
 	will-change: transform;
-}
-
-li:hover {
-	transform: scale(1.05);
-	transition: 0.2s;
+	text-align: center;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-	.infinity-stones-ul {
+	/* .infinity-stones-ul {
 		width: 60%;
 		margin: 10% 20%;
-	}
+	} */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -58,30 +71,30 @@ li:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-	img {
+	header img {
 		width: 40%;
 		margin: 0% 30%;
 	}
 
-	.infinity-stones-ul {
+	/* .infinity-stones-ul {
 		width: 20%;
 		margin: 0% 40%;
 	}
 
 	.infinity-stones-ul > li {
 		margin: 4%;
-	}
+	} */
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-	img {
+	header img {
 		width: 30%;
 		margin: 0% 35%;
 	}
 
-	.infinity-stones-ul {
+	/* .infinity-stones-ul {
 		width: 20%;
 		margin: 0% 40%;
-	}
+	} */
 }

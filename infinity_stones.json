@@ -2,27 +2,27 @@
 	"stones": [
 		{
 			"name": "space",
-			"color": "purple"
-		},
-		{
-			"name": "mind",
 			"color": "blue"
 		},
 		{
-			"name": "soul",
-			"color": "green"
-		},
-		{
-			"name": "reality",
+			"name": "mind",
 			"color": "yellow"
 		},
 		{
-			"name": "time",
+			"name": "soul",
 			"color": "orange"
 		},
 		{
-			"name": "power",
+			"name": "reality",
 			"color": "red"
+		},
+		{
+			"name": "time",
+			"color": "green"
+		},
+		{
+			"name": "power",
+			"color": "purple"
 		}
 	]
 }
